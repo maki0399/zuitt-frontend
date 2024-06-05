@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cardHighlight {
+  min-height: 100%;
+}
+
+
+/* Highlights page CSS */
+.shadow-on-hover:hover {
+  transition: box-shadow 0.3s ease-in-out;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.tech-card {
+  background-color: #f8f9fa;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.tech-card:hover {
+  background-color: #d1e0ff; /* Add a different color or shade on hover */
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Homepage CSS */
+
+.home-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  animation: fadeIn 0.8s ease-in-out; /* Add a fade-in animation */
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+/* AppNavBar CSS */
+
+.navbar {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add shadow to the navbar */
+}
+
+.navbar-nav .nav-link {
+  transition: color 0.3s ease-in-out; /* Add a smooth transition to link color */
+}
+
+
+
+/* PreviewCourses.js CSS */
+
+.product-card {
+  transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.product-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  background-color: #d1e0ff; /* change background color on hover */
+}
+
+.product-card:hover .card-title a {
+  color: #000000cd; /* Change link color on hover */
+}
+
+
+
+
+
+
+
+
